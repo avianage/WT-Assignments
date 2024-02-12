@@ -1,0 +1,112 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin:0 20px 0 0;
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.4),
+        rgba(255, 255, 255, 0.2)
+    );
+    backdrop-filter: blur(2rem);
+    
+    height: 60%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+
+.a {
+    text-decoration: none;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    display:contents;
+    align-items: center;
+}
+
+.dropdown .dropbtn {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    margin: 0 20px 0 0;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+}
+  
+/* Add a red background color to navbar links on hover */
+.navbar-content a:hover, .dropbtn:hover {
+    background-color: red;
+}
+  
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+/* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.content a {
+    margin:0px 35px 0px 0px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.hero{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 800px 400px;
+    padding:20px;
+    margin:20px;
+    grid-gap:50px
+}
+
+.hero img{
+    width: 800px
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 250px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
